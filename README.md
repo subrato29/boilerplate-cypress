@@ -36,31 +36,35 @@ npm install
 Running the tests:
 -------------------
 ```
-'npx cypress open' OR 'npm run test'
+'npx cypress open' OR 
+'npm run test' (normal inside the browser)
+'npm run all' (all tests will be executed headless)
+'npm run chrome' (all tests will be executed headless mode in chrome)
+'npm run <TEST_NAME>' (specific test file will be executed)
 
 ```
 
 Cypress architechture (folder structure):
 -----------------------------------------
 ```
-- fixtures
-    - Is used to provide static constant data.
-    - url, email, username, env.
-    - how to call: cy.fixtures ()
+fixtures
+    Is used to provide static constant data.
+    url, email, username, env.
+    how to call: cy.fixtures ()
 
-- integration
-    - Used to write test cases
+integration
+    Used to write test cases
 
-- plugins
-    - All plugins and listeners.
-    - e.g. chrome supported options, accept certificate
+plugins
+    All plugins and listeners.
+    e.g. chrome supported options, accept certificate
 
-- support
-    - For all custom modules/functions/wrappers/libs
-    - It will be accessible for all tests/specs files 
+support
+    For all custom modules/functions/wrappers/libs
+    It will be accessible for all tests/specs files 
 
-- cypress.json
-    - cypress related environment configuations (global properties)
-    - e.g. timeout etc.
+cypress.json
+    cypress related environment configuations (global properties)
+    e.g. timeout etc.
 
 ```
