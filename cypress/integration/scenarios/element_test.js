@@ -2,19 +2,11 @@
 
 describe ('launch my app', () => {
 
-    const url = 'http://automationpractice.com';
+    const url = 'https://www.flipkart.com/';
 
     it ('app testing', () => {
         cy.visit (url);
-        cy.contains ('Contact us');
-        cy.contains ('Contact us').click ();
-        cy.url ().should ('include', 'contact');
-    })
-
-    it ('searching element', () => {
-        cy.visit (url);
-        cy.get ('input[placeholder = \'Search\']').type ('Printed Dress');
-        cy.get ('button[name = \'submit_search\']').click ();
-        cy.contains ('Printed Dress');
+        cy.contains ('Become a Seller');
+        cy.url ().should ('include', 'flipkart');
     })
 })
