@@ -2,7 +2,7 @@ Author: Subrato Sarkar
 ------------------------------
 
 ```
-This is a Cypress framework to frontend application
+This is a front end testing framework
 
 boilerplate-cypress
 
