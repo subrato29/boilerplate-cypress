@@ -1,5 +1,8 @@
 'use strict'
 
+/// <reference types="Cypress" />
+/// <reference types="chai" />
+
 describe ('testing different view ports', () => {
     
     const url = 'https://www.flipkart.com/';

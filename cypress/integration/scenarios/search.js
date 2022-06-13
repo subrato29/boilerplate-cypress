@@ -1,5 +1,8 @@
 'use strict';
 
+/// <reference types="Cypress" />
+/// <reference types="chai" />
+
 describe ('launch my app', () => {
 
     const url = 'https://www.flipkart.com/';
