@@ -36,6 +36,6 @@ npm install
 Running the tests:
 -------------------
 ```
-'npx cypress open'
+'npx cypress open' OR 'npm run test'
 
 ```
