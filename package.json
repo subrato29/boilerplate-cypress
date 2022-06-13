@@ -10,7 +10,8 @@
     "firefox": "./node_modules/.bin/cypress run --spec cypress/integration/scenarios/*.js --browser firefox",
     "element": "./node_modules/.bin/cypress run --spec cypress/integration/scenarios/element_test.js",
     "search": "./node_modules/.bin/cypress run --spec cypress/integration/scenarios/search.js",
-    "viewport": "./node_modules/.bin/cypress run --spec cypress/integration/scenarios/viewport_tests.js"
+    "viewport": "./node_modules/.bin/cypress run --spec cypress/integration/scenarios/viewport_tests.js",
+    "get": "./node_modules/.bin/cypress run --spec cypress/integration/scenarios/element_get.js"
   },
   "author": "Subrato Sarkar",
   "license": "ISC",
