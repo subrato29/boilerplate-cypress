@@ -37,9 +37,9 @@ Running the tests:
 -------------------
 ```
 'npx cypress open' OR 
-'npm run test' (normal inside the physical browser)
-'npm run all' (all tests will be executed headlessly)
-'npm run chrome' (all tests will be executed headless mode in chrome with physical browser)
+'npm run test' (normal inside the physical browser) OR
+'npm run all' (all tests will be executed headlessly) OR
+'npm run chrome' (all tests will be executed headless mode in chrome with physical browser) OR
 'npm run <TEST_NAME>' (specific test file will be executed headlessly)
 
 ```
