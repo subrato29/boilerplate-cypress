@@ -36,6 +36,6 @@ npm install
 Running the tests:
 -------------------
 ```
-'npx open cypress'
+'npx cypress open'
 
 ```
