@@ -1,6 +1,6 @@
 'use strict';
 
-describe ('launch my app', () => {
+describe ('Test application url', () => {
 
     const url = 'https://www.flipkart.com/';
 

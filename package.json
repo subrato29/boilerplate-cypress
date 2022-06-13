@@ -4,7 +4,13 @@
   "description": "This is a frontend testing framework",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open"
+    "test": "cypress open",
+    "all": "./node_modules/.bin/cypress run --spec cypress/integration/scenarios/*.js",
+    "chrome": "./node_modules/.bin/cypress run --spec cypress/integration/scenarios/*.js --browser chrome",
+    "firefox": "./node_modules/.bin/cypress run --spec cypress/integration/scenarios/*.js --browser firefox",
+    "element": "./node_modules/.bin/cypress run --spec cypress/integration/scenarios/element_test.js",
+    "search": "./node_modules/.bin/cypress run --spec cypress/integration/scenarios/search.js",
+    "viewport": "./node_modules/.bin/cypress run --spec cypress/integration/scenarios/viewport_tests.js"
   },
   "author": "Subrato Sarkar",
   "license": "ISC",
