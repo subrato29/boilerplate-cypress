@@ -19,7 +19,7 @@ node.js
 
 ```
 
-Getting started :
+Getting started:
 ------------------------------
 
 ```
@@ -37,5 +37,30 @@ Running the tests:
 -------------------
 ```
 'npx cypress open' OR 'npm run test'
+
+```
+
+Cypress architechture (folder structure):
+-----------------------------------------
+```
+- fixtures
+    - Is used to provide static constant data.
+    - url, email, username, env.
+    - how to call: cy.fixtures ()
+
+- integration
+    - Used to write test cases
+
+- plugins
+    - All plugins and listeners.
+    - e.g. chrome supported options, accept certificate
+
+- support
+    - For all custom modules/functions/wrappers/libs
+    - It will be accessible for all tests/specs files 
+
+- cypress.json
+    - cypress related environment configuations (global properties)
+    - e.g. timeout etc.
 
 ```
