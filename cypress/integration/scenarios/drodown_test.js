@@ -12,4 +12,13 @@ describe ('Dropdown feature test', () => {
         cy.get ('select[name = \'language\']').select ('Slovenčina')
             .should ('have.value', 'sk');
     })
+
+    it ('Google search test', () => {
+        cy.visit ('https://www.google.com/');
+        cy.get ('input[name = \'q\']').type ('cypress install');
+        cy.get ('.erkvQe')
+            .find ('li span')
+            .contains ('cypress install')
+            .click ();
+    })
 })
