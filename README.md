@@ -13,7 +13,7 @@ Framework built on
 
 ```
 
-cypress
+cypress (coupled with mocha and chai)
 
 node.js
 
