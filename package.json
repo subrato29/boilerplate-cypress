@@ -16,6 +16,6 @@
   "author": "Subrato Sarkar",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^4.7.0"
+    "cypress": "^8.7.0"
   }
 }
