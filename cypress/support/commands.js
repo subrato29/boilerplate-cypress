@@ -4,6 +4,8 @@
 // existing commands.
 // ***********************************************
 
+import 'cypress-file-upload';
+
 Cypress.Commands.add ('login', (email) => {
     cy.get ('#email').type (email);
     cy.get ('#passwd').type ('Password123');
