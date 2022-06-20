@@ -41,7 +41,7 @@ Running the tests:
 'npm run all' (all tests will be executed headlessly) OR
 'npm run chrome' (all tests will be executed headless mode in chrome with physical browser) OR
 'npm run <TEST_NAME>' (specific test file will be executed headlessly)
-'npm run report' (running all tests with report)
+'npm run report' (running all tests and generated mochawesome html report)
 
 ```
 
